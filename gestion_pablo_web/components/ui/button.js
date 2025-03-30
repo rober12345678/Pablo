@@ -1,0 +1,1 @@
+export function Button(props) { return <button {...props} className='p-2 rounded bg-blue-200 hover:bg-blue-300'>{props.children}</button>; }
